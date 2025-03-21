@@ -60,7 +60,7 @@ void print_delimiter() {
 }
 
 void draw_board(Board_t* board) {
-    clear();
+    erase();
 
     print_score(board);
     print_delimiter();
