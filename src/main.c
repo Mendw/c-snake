@@ -1,4 +1,4 @@
-#include "main.h"
+#include "../include/main.h"
 
 void update_board(Board_t* board, char key, bool* game_over_ptr) {
     switch (board->direction) {

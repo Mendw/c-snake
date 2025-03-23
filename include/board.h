@@ -5,7 +5,7 @@
 #include <stdbool.h>
 #include <time.h>
 
-typedef enum Cell_Value { EMPTY, HEAD, BODY, TAIL, FRUIT } Cell_Value_t;
+typedef enum Cell_Value { EMPTY, HEAD, BODY, FRUIT } Cell_Value_t;
 typedef enum Direction { NORTH, EAST, SOUTH, WEST } Direction_t;
 
 typedef struct Vector2 {

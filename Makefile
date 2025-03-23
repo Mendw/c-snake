@@ -1,7 +1,7 @@
 all: build execute clean
 
-build: main.c board.c sleep.c
-	gcc main.c board.c sleep.c -o snake.out -lncurses
+build: src/main.c src/board.c src/sleep.c
+	gcc src/main.c src/board.c src/sleep.c -o snake.out -lncurses
 
 execute:
 	@./snake.out

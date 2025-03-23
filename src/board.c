@@ -1,4 +1,4 @@
-#include "board.h"
+#include "../include/board.h"
 
 Snake_Node_t* create_snake_node(int x, int y) {
     Snake_Node_t* node = malloc(sizeof(Snake_Node_t));
